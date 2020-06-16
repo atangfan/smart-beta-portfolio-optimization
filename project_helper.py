@@ -5,7 +5,7 @@ import plotly.graph_objs as go
 import plotly.figure_factory as ff
 
 import plotly.offline as offline_py
-offline_py.init_notebook_mode(connected=True)
+# offline_py.init_notebook_mode(connected=True)
 
 
 def _generate_hover_text(x_text, y_text, z_values, x_label, y_label, z_label):
